@@ -45,7 +45,7 @@ fn main() {
         let option: i32 = match option.trim().parse() {
             Ok(num) => num,
             Err(_) => {
-                println!("Please pick valid intger");
+                println!("Please pick valid integer");
                 continue;
             }
         };
